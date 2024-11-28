@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="root">
+        <!-- Elements Container -->
+        <ui:VisualElement name="elementsContainer" class="container">
+            <!-- Dynamic content will be added here -->
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+

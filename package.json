@@ -1,0 +1,10 @@
+﻿{
+  "name": "com.stnc.serializeinterface",
+  "version": "1.0.0",
+  "displayName": "Serialize Interface",
+  "description": "A Unity package for Serializing interfaces",
+  "unity": "2020.3",
+  "dependencies": {
+    "com.unity.modules.ui": "1.0.0"
+  }
+}

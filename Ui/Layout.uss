@@ -1,0 +1,68 @@
+﻿/* Root container style */
+.root {
+    padding: 5px; /* Reduced padding */
+    margin: 2px; /* Reduced margin */
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #2b2b2b; /* Dark gray background */
+}
+
+/* Elements container */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap between elements */
+    padding: 3px; /* Reduced padding inside */
+    background-color: #1e1e1e; /* Slightly darker background for input areas */
+    border: 1px solid #444;
+    border-radius: 4px;
+}
+
+/* Dropdown style */
+.unity-dropdown-field {
+    flex: 1;
+    margin: 2px 0; /* Reduced margin */
+    background-color: #3a3a3a; /* Darker background for dropdown */
+    color: #ffffff; /* White text */
+    border: 1px solid #555;
+    border-radius: 2px; /* Slightly sharper corners */
+    font-size: 11px; /* Slightly smaller font size */
+}
+
+/* Sub-properties container style */
+#subPropertiesContainer {
+    padding: 5px; /* Reduced padding */
+    margin-top: 5px; /* Reduced margin */
+    border: 1px dashed #555; /* Subtle dashed border for nested elements */
+    border-radius: 4px;
+    background-color: #252525; /* Dark background for sub-properties */
+}
+
+/* Labels and text fields */
+.unity-label {
+    color: #ffffff; /* White text for labels */
+    font-size: 11px; /* Slightly smaller font size */
+    margin: 2px 0; /* Reduced spacing around labels */
+}
+
+.unity-text-field {
+    background-color: #3a3a3a; /* Darker background for text fields */
+    color: #ffffff; /* White text */
+    border: 1px solid #555;
+    border-radius: 2px; /* Slightly sharper corners */
+    margin: 2px 0; /* Reduced spacing around text fields */
+    padding: 3px; /* Reduced padding inside */
+    font-size: 11px; /* Slightly smaller font size */
+}
+
+/* Hover and focus states */
+.unity-dropdown-field:hover, .unity-text-field:hover {
+    border-color: #888; /* Slight highlight on hover */
+}
+
+.unity-dropdown-field:focus, .unity-text-field:focus {
+    border-color: #007acc; /* Highlight active input fields */
+    outline: none; /* Remove default outline for cleaner look */
+}
+
+
